@@ -1,0 +1,25 @@
+#profileSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#imgContainer {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#profile-img {
+  width: inherit;
+  height: inherit;
+}
+#twitter {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#slack {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
