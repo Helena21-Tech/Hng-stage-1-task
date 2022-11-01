@@ -1,0 +1,15 @@
+.btnLinks{
+  width: 100%;
+  background-color: #EAECF0;
+  padding: 1.5rem 0;
+  margin: 1rem 0;
+  list-style-type: none;
+  text-align: center;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
