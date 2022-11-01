@@ -14,8 +14,24 @@
 .share{
   position: absolute;
   top: 0;
-  right: 20rem;
+  right: 15rem;
 }
+@media only screen and (max-width: 768px) {
+   .share{
+    display:none;
+   } 
+  }
+.shareMob{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .shareMob{
+    display:block;
+    position: absolute;
+    top:0;
+    right: 2rem;
+  }  
+  }
 #profile-img {
   width: inherit;
   height: inherit;
