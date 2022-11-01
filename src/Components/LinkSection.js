@@ -1,5 +1,6 @@
 import React from "react";
 import slack from "../images/slack.png";
+import ReactTooltip from "react-tooltip";
 import icon from "../images/Social icon.png";
 import styles from "./LinkSection.module.css";
 
@@ -25,7 +26,8 @@ const LinkSection = ()=>{
       <ul>
         {btnLinks.map(btn=>{
         return  <li className={styles.btnLinks}>
-            <a className={styles.link} id={`${styles}.${btn.id}`} href={btn.link}>{btn.name}</a>
+            <a data-tip data-for={btn.id} target="_blank" rel="noreferre" className={styles.link} id={`${styles}.${btn.id}`} href={btn.link}>{btn.name}</a>
+            <ReactTooltip id={btn.id} place= "bottom" effect="solid">{btn.subtext}</ReactTooltip>
           </li>
         })}
       </ul>
