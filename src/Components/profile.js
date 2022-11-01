@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import style from "./profile.module.css";
+import share from "../images/_Avatar share button.png";
 import ProfileImg from "../images/ProfileImg.jpg";
 
 const Profile = () => {
@@ -13,6 +14,7 @@ const Profile = () => {
   return (
     <div id={style.profileSection} onClick={showSlackHandler}>
       <div id={style.imgContainer}>
+        <img className={style.share} src={share} alt= "share" />
         <img id={style["profile-img"]} src={ProfileImg} alt="Profile" />
       </div>
       <span id={style.twitter}>Temi_Ogunyemi</span>

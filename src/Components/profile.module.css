@@ -1,4 +1,5 @@
 #profileSection {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +10,11 @@
   height: 12rem;
   border-radius: 50%;
   overflow: hidden;
+}
+.share{
+  position: absolute;
+  top: 0;
+  right: 20rem;
 }
 #profile-img {
   width: inherit;

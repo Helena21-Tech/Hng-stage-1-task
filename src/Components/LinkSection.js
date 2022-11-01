@@ -1,4 +1,6 @@
 import React from "react";
+import slack from "../images/slack.png";
+import icon from "../images/Social icon.png";
 import styles from "./LinkSection.module.css";
 
 const btnLinks = [
@@ -27,6 +29,10 @@ const LinkSection = ()=>{
           </li>
         })}
       </ul>
+      <div className={styles.icon}>
+        <img src={slack} alt="slack"/>
+        <img src={icon} alt="icon" />
+      </div>
     </div>
   )
 }

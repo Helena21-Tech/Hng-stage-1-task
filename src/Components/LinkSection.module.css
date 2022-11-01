@@ -13,3 +13,11 @@
   font-size: 1.4rem;
   font-weight: 400;
 }
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon img{
+  margin-left: 2rem;
+}
